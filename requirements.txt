@@ -1,0 +1,4 @@
+# Reproducible baseline used for field loading and local validation.
+mujoco==3.2.3
+numpy>=1.24,<3
+Pillow>=9

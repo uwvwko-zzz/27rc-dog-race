@@ -1,0 +1,15 @@
+# Local configuration and Python caches
+.agents/
+.codex/
+.aws/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Reproducible runtime output and local rule source
+/generated/
+/docs/reference/*.pdf
+
+# Extra weights; keep the bundled demo policy
+*.onnx
+!artifacts/go2w_good/policy.onnx

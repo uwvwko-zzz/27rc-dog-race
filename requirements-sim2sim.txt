@@ -1,0 +1,4 @@
+-r requirements.txt
+onnxruntime>=1.16
+python-xlib>=0.33; sys_platform == "linux"
+git+https://github.com/uwvwko-zzz/mujoco-gui.git
