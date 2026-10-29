@@ -1,4 +1,4 @@
-"""Generate a self-contained MJCF training course from ROBOCON 2027 rules."""
+"""Generate a self-contained MJCF training course from ROBOCON 2027 V2.0 rules."""
 from pathlib import Path
 import math
 import random
@@ -73,12 +73,12 @@ def build():
     b=body('high_wall',(.95,1.55,0))
     geom(b,'wall_main',(0,0,.1475),(.04,.4,.1475))
     geom(b,'wall_steel_cap',(0,0,.2975),(.04,.4,.0025),color='0.55 0.58 0.60 1')
-    # Plum blossom blocks: total length 3.5 m, two staggered rows of three blocks.
+    # V2.0: 0.1 m-high platforms and blocks; total length 3.5 m, two staggered rows.
     b=body('stepping_stones',(2.29,1.55,0))
     for label,x in [('entry',.4),('exit',3.1)]:
-        geom(b,f'stones_{label}_platform',(x,0,.1),(.4,.4,.1))
+        geom(b,f'stones_{label}_platform',(x,0,.05),(.4,.4,.05))
     for row,(x0,y) in enumerate([(1.,.2),(1.3,-.2)]):
-        for i in range(3): geom(b,f'stone_{row}_{i}',(x0+.6*i,y,.1),(.1,.1,.1))
+        for i in range(3): geom(b,f'stone_{row}_{i}',(x0+.6*i,y,.05),(.1,.1,.05))
     # Clearance frame: actual inner width .8 and beam UNDERSIDE z=.29.
     b=body('clearance_frame',(1.37,-1.88,0))
     for i,x in enumerate([-.4,0,.4]):

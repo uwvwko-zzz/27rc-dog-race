@@ -67,14 +67,14 @@
       <geom name="wall_steel_cap" type="box" pos="0 0 0.2975" rgba="0.55 0.58 0.60 1" size="0.04 0.4 0.0025" />
     </body>
     <body name="stepping_stones" pos="2.29 1.55 0">
-      <geom name="stones_entry_platform" type="box" pos="0.4 0 0.1" rgba="0.35 0.62 0.20 1" size="0.4 0.4 0.1" />
-      <geom name="stones_exit_platform" type="box" pos="3.1 0 0.1" rgba="0.35 0.62 0.20 1" size="0.4 0.4 0.1" />
-      <geom name="stone_0_0" type="box" pos="1 0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
-      <geom name="stone_0_1" type="box" pos="1.6 0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
-      <geom name="stone_0_2" type="box" pos="2.2 0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
-      <geom name="stone_1_0" type="box" pos="1.3 -0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
-      <geom name="stone_1_1" type="box" pos="1.9 -0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
-      <geom name="stone_1_2" type="box" pos="2.5 -0.2 0.1" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.1" />
+      <geom name="stones_entry_platform" type="box" pos="0.4 0 0.05" rgba="0.35 0.62 0.20 1" size="0.4 0.4 0.05" />
+      <geom name="stones_exit_platform" type="box" pos="3.1 0 0.05" rgba="0.35 0.62 0.20 1" size="0.4 0.4 0.05" />
+      <geom name="stone_0_0" type="box" pos="1 0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
+      <geom name="stone_0_1" type="box" pos="1.6 0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
+      <geom name="stone_0_2" type="box" pos="2.2 0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
+      <geom name="stone_1_0" type="box" pos="1.3 -0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
+      <geom name="stone_1_1" type="box" pos="1.9 -0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
+      <geom name="stone_1_2" type="box" pos="2.5 -0.2 0.05" rgba="0.35 0.62 0.20 1" size="0.1 0.1 0.05" />
     </body>
     <body name="clearance_frame" pos="1.37 -1.88 0">
       <geom name="frame_leg_0_0" type="box" pos="-0.4 -0.41 0.145" rgba="0.35 0.62 0.20 1" size="0.01 0.01 0.145" />
